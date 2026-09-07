@@ -1,0 +1,14 @@
+{
+  "name": "remita/kajabi-plugin",
+  "description": "Remita Checkout Kajabi reference adapter",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "PaymentEngine\\Kajabi\\": "src/"
+    }
+  }
+}
